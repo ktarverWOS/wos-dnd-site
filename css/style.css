@@ -1,0 +1,75 @@
+
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  margin: 0;
+  background: url('https://www.transparenttextures.com/patterns/parchment.png'), linear-gradient(#2c2c2c, #1c1c1c);
+  color: #f4f4f4;
+  background-attachment: fixed;
+}
+header {
+  background: linear-gradient(90deg, #5b2c6f, #1f618d);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #5b2c6f;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #2b2b2b;
+  border-bottom: 2px solid #5b2c6f;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: #f4f4f4;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+nav ul li a:hover {
+  background: #5b2c6f;
+  border-radius: 5px;
+  color: #fff;
+}
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.8);
+}
+h1, h2 {
+  font-family: 'Georgia', serif;
+  color: #e0d4b7;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #111;
+  margin-top: 2rem;
+  border-top: 2px solid #5b2c6f;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid #5b2c6f;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #5b2c6f;
+}
