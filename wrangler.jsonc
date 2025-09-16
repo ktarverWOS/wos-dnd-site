@@ -1,4 +1,2 @@
-{
-  "name": "wos-dnd-site",
-  "main": "src/index.js",
-  }
+
+{ “name”: “wos-dnd-site”, “compatibility_date”: “2025-06-13”, “assets”: { “directory”: “./dist” } }
